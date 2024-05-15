@@ -82,15 +82,15 @@ plt.figure(figsize=(10, 6))
 plt.semilogx(S, E4n_values_gaussian, '-o', label='Gaussian')
 
 # Plot E'^4_n for combined probability density function
-plt.semilogx(S, E4n_values_combined, '-o', label='Combined PDF')
+plt.semilogx(S, E4n_values_combined, '-o', label='PDF')
 
 # Customize x-axis ticks to ensure accuracy
 plt.xticks(S, labels=[str(val) for val in S])
 
 # Plot settings
 plt.xlabel('Sample Size (log scale)')
-plt.ylabel('Fourth Power of Absolute Estimation Error (E\'^4_n)')
-plt.title('Fourth Power of Absolute Estimation Error (E\'^4_n) vs Sample Size (Log Scale)')
+plt.ylabel('Fourth Power of Absolute Estimation Error (E\'_n)')
+plt.title('Fourth Power of Absolute Estimation Error (E\'_n) vs Sample Size (Log Scale)')
 plt.legend()
 plt.show()
 
