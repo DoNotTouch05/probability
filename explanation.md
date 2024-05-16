@@ -63,7 +63,6 @@ plt.legend()
 plt.show()
 ```
 ![image](figure1.png)
-![figure1](https://github.com/DoNotTouch05/probability/blob/f3a4321e16c916c236b27abbf6eb88b971912a28/figure1.png?raw=true)
 
 ## 2. In Figure2, show $E_{n}, \forall n \in S$, when $\sigma^{2}_{w}∈ (10^{-3}, 10^{-2}, 10^{-1}).$
 Let $\lambda$ be a positive real number. Consider the case in which $W_{t}$ has the following probability density function.
@@ -148,7 +147,7 @@ plt.title('Mean Squared Error (En) vs Sample Size (Log Scale)')
 plt.legend()
 plt.show()
 ```
-![figure2](https://github.com/DoNotTouch05/probability/blob/f3a4321e16c916c236b27abbf6eb88b971912a28/figure2.png?raw=true)
+![image](figure2.png)
 
 ## 3. In Figure3, show $E'\_{n}$ = $\frac1n \Sigma_{t=1}^n (\hat{X_{t}} - X_{t})^4$ for the two probability density functions of $W_{t}$, when $\sigma^{2}_{w}= 0.16.$
 Same step in question 2 adding the library to do integration, setting sample sizes $S$, Gaussian and PDF
@@ -235,4 +234,4 @@ plt.title('Fourth Power of Absolute Estimation Error (E\'_n) vs Sample Size (Log
 plt.legend()
 plt.show()
 ```
-![figure3](https://github.com/DoNotTouch05/probability/blob/f3a4321e16c916c236b27abbf6eb88b971912a28/figure3.png?raw=true)
+![image](figure3.png)
