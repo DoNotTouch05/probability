@@ -147,7 +147,7 @@ plt.title('Mean Squared Error (En) vs Sample Size (Log Scale)')
 plt.legend()
 plt.show()
 ```
-![image](figure2.png)
+![[image](figure2.png)](https://github.com/DoNotTouch05/probability/blob/main/figures/figure2.png?raw=true)
 
 ## 3. In Figure3, show $E'\_{n}$ = $\frac1n \Sigma_{t=1}^n (\hat{X_{t}} - X_{t})^4$ for the two probability density functions of $W_{t}$, when $\sigma^{2}_{w}= 0.16.$
 Same step in question 2 adding the library to do integration, setting sample sizes $S$, Gaussian and PDF
@@ -234,4 +234,4 @@ plt.title('Fourth Power of Absolute Estimation Error (E\'_n) vs Sample Size (Log
 plt.legend()
 plt.show()
 ```
-![image](figure3.png)
+![[image](figure3.png)](https://github.com/DoNotTouch05/probability/blob/main/figures/figure3.png?raw=true)
