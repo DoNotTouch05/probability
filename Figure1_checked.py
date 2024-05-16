@@ -8,10 +8,10 @@ E[X]=E[W]=0, E[XZ]=E[X^2]=1, E[Z^2]=E[X^2]+E[W^2]=1+sigma2w
 
 #set S
 S = []
-for exponent in range(7):  # Exponents from 10^0 to 10^6
+for exponent in range(7):
     S.append(1 * (10 ** exponent))
     S.append(5 * (10 ** exponent))
-S = sorted(set(S))  # Remove duplicates and sort
+S = sorted(set(S)) 
 
 #Gaussian samples
 def generate_samples(n, mean=0, variance=1):
@@ -25,7 +25,7 @@ def compute_a(sigma2w):
 def compute_En(a, n, sigma2w):
     Xt = generate_samples(n, 0, 1)
     Wt = generate_samples(n, 0, sigma2w) 
-    Zt = Xt + Wt  #Zt
+    Zt = Xt + Wt 
     X_hat = a * Zt
     En = np.mean((X_hat - Xt) ** 2)
     return En
