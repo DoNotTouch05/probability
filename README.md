@@ -1,2 +1,2 @@
 # probability
-one programming homework
+programming homework
