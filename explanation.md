@@ -62,7 +62,7 @@ plt.title('Mean Squared Error (En) vs Sample Size (Log Scale)')
 plt.legend()
 plt.show()
 ```
-![image](figure1.png)
+![image]([figure1.png](https://github.com/DoNotTouch05/probability/blob/main/figures/figure1.png?raw=true))
 
 ## 2. In Figure2, show $E_{n}, \forall n \in S$, when $\sigma^{2}_{w}∈ (10^{-3}, 10^{-2}, 10^{-1}).$
 Let $\lambda$ be a positive real number. Consider the case in which $W_{t}$ has the following probability density function.
