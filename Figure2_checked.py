@@ -20,7 +20,7 @@ def fWt(w, lambda_val):
     else:
         return lambda_val / 2 * np.exp(lambda_val * w)
 
-#Generate Wt samples from the specified distribution
+#Generate Wt samples
 def generate_Wt_samples(n, lambda_val):
     u = np.random.uniform(0, 1, n)
     w = np.where(u < 0.5, -np.log(1 - 2 * u) / lambda_val, np.log(2 * (u - 0.5)) / lambda_val)
