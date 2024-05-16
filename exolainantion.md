@@ -146,5 +146,4 @@ plt.title('Mean Squared Error (En) vs Sample Size (Log Scale)')
 plt.legend()
 plt.show()
 ```
-## 2. In Figure3, show $E_{n}, \forall n \in S$, when $\sigma^{2}_{w}∈ (10^{-3}, 10^{-2}, 10^{-1}).$
-$E'\_{n}$ = $\frac1n \sum_{t=1}^n (\hat{X_{t}} - X_{t})^4$ for the two probability density functions of $W_{t}$, when $\sigma^{2}_{w}= 0.16.$
+## 3. In Figure3, show $E'\_{n}$ = $\frac1n \Sigma_{t=1}^n (\hat{X_{t}} - X_{t})^4$ for the two probability density functions of $W_{t}$, when $\sigma^{2}_{w}= 0.16.$
