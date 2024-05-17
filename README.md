@@ -2,5 +2,3 @@
 Programming homework
 
 Trying to complete it before 520
-
-[embed]programming HW.pdf[/embed]
