@@ -177,7 +177,7 @@ def generate_specific_samples(n, lambda_val):
     return samples
 
 def compute_a(lambda_val, sigma2w, fWt_func):
-    w = np.sqrt(sigma2w)  # Standard deviation of Wt
+    w = np.sqrt(sigma2w)  
     
     def integrand_numerator(x):
         return x * (x + w) * np.exp(-x**2 / 2) * fWt_func(x, lambda_val)
@@ -201,11 +201,11 @@ def compute_E4n_gaussian(a, n, sigma2w):
     return E4n
 
 def compute_E4n_combined(a, n, lambda_val, sigma2w):
-    Xt = generate_samples(n, 0, 1)  # Generate samples for Xt
-    Wt = generate_specific_samples(n, lambda_val)  # Generate samples for Wt from specific distribution
-    Zt = Xt + Wt  # Compute Zt
+    Xt = generate_samples(n, 0, 1) 
+    Wt = generate_specific_samples(n, lambda_val)  
+    Zt = Xt + Wt 
     X_hat = a * Zt  # Estimated Xt
-    E4n = np.mean(np.abs(X_hat - Xt) ** 4)  # Calculate fourth power of absolute estimation error and then take mean
+    E4n = np.mean(np.abs(X_hat - Xt) ** 4) 
     return E4n
 ```
 The vaiance and $\lambda$
