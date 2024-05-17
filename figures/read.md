@@ -11,6 +11,10 @@ the second code with Q2 also done, still need to make sure it correct
 add seed can get the same figure {in figure1}
 combined two code and let Q3 half down
 ## 5.15
-
+Q3's code done, still something wrong with it?? why one line is almost horizontally
+review Q1 and 2, plot, take it correct
 ## 5.16
 explain code?
+all done!!!!
+
+**final**
